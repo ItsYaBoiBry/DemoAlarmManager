@@ -5,17 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="android.myapplicationdev.com.demoalarmmanager.MainActivity">
+    tools:context="android.myapplicationdev.com.demoalarmmanager.AlarmRecieverActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Setting the Alarm"
-        android:id="@+id/textView"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SET THE ALARM"
-        android:id="@+id/btn_set_time"/>
+        android:text="alarm received"/>
 
 </LinearLayout>
